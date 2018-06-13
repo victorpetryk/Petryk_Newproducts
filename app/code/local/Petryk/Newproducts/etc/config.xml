@@ -22,5 +22,12 @@
                 </args>
             </petryk_newproducts>
         </routers>
+        <layout>
+            <updates>
+                <petryk_newproducts>
+                    <file>petryk_newproducts.xml</file>
+                </petryk_newproducts>
+            </updates>
+        </layout>
     </frontend>
 </config>

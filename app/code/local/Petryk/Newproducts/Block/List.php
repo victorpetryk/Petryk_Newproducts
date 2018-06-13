@@ -1,6 +1,6 @@
 <?php
 
-class Petryk_Newproducts_Block_List extends Mage_Core_Block_Template
+class Petryk_Newproducts_Block_List extends Mage_Catalog_Block_Product_Abstract
 {
     public function getCollection()
     {
