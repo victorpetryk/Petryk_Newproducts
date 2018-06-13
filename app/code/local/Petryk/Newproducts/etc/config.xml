@@ -5,6 +5,13 @@
             <version>0.1.0</version>
         </Petryk_Newproducts>
     </modules>
+    <global>
+        <blocks>
+            <petryk_newproducts>
+                <class>Petryk_Newproducts_Block</class>
+            </petryk_newproducts>
+        </blocks>
+    </global>
     <frontend>
         <routers>
             <petryk_newproducts>
