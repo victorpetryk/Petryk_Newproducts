@@ -5,4 +5,15 @@
             <version>0.1.0</version>
         </Petryk_Newproducts>
     </modules>
+    <frontend>
+        <routers>
+            <petryk_newproducts>
+                <use>standard</use>
+                <args>
+                    <module>Petryk_Newproducts</module>
+                    <frontName>petryk_newproducts</frontName>
+                </args>
+            </petryk_newproducts>
+        </routers>
+    </frontend>
 </config>
