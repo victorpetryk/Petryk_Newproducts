@@ -11,6 +11,21 @@
                 <class>Petryk_Newproducts_Block</class>
             </petryk_newproducts>
         </blocks>
+        <models>
+            <petryk_newproducts>
+                <class>Petryk_Newproducts_Model</class>
+            </petryk_newproducts>
+        </models>
+        <events>
+            <page_block_html_topmenu_gethtml_before>
+                <observers>
+                    <petryk_newproducts>
+                        <class>petryk_newproducts/observer</class>
+                        <method>addLinkToTopmenu</method>
+                    </petryk_newproducts>
+                </observers>
+            </page_block_html_topmenu_gethtml_before>
+        </events>
     </global>
     <frontend>
         <routers>
