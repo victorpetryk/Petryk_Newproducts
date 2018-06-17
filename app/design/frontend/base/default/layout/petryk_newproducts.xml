@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <layout version="0.1.0">
+    <petryk_newproducts_index_index>
+        <update handle="petryk_newproducts_index_list"/>
+    </petryk_newproducts_index_index>
     <petryk_newproducts_index_list>
         <reference name="root">
             <action method="setTemplate">
